@@ -1,27 +1,33 @@
-html {
-    background-color: #e3d3ff;
+body{
+    background-color: rgb(118, 88, 146);
+}
+/* Border has three properties */
+
+.caja1 {
+    color: green;
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 20px 10px 20px 10px;
+    padding: 20px 10px;
+    padding: 30px;
+    margin: 10px;
+    box-sizing: content-box;
 }
 
-h1 {
-    color: #8c8377;
-    background-color: #bdd4ff;
-}
-
-p {
-    color: #a023a0;
-}
-
-div {
-    background-color: rgb(129, 51, 25);
-    color: #8c8377;
-    width: 200px;
-    height: 200px;
-    border: 5px solid black;
-
-    
-}
-
-a {
-    background-color: rgb(71, 101, 91);
+.caja2 {
+    color: black;
+    background-color: white;
+    width: 250px;
+    height: 250px;
 
 }
+
+.caja3  {
+    color: orange;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+}
+
