@@ -20,23 +20,68 @@ body {
     margin: 10 auto;
 }
 
+/* inicio header */
 header {
     background-color: #9d2d65;
     height: 100px;
 
 }
 
+/* Final header */
+
+/* inicio nav */
 nav {
     background-color: #566ab0;
     height: 200px;
 }
 
+/* Final nav */
+
+/* inicio main */
 main {
     background-color: #38665a;
     height: 550px;
 }
 
+article {
+    width: 300px;
+    background-color: #5e4d4d;
+    padding: 1em;
+    margin: 0 auto;
+    height: 300px;
+    border: 1px #242422 solid;
+    text-align: center;
+    
+}
+
+img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2 {
+    color: aliceblue;
+    margin-top: 10px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+
+}
+
+.uno{
+    float: left;
+}
+.dos{
+    float: left;
+}
+
+/* Final main */
+
+/* Inicio footer */
 footer {
-    background-color: #37511b;
+    background-color: #436c4b;
     height: 150px;
 }
+
+/* Final footer */
+
+
